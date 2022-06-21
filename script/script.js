@@ -30,7 +30,6 @@ product_form_elem.addEventListener('submit', event => {
         title: title.value,
         price: price.value
     })
-
     title.value = '';
     price.value = '';
     render();
